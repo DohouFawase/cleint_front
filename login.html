@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Login</title>
+   
+</head>
+<body>
+    <div class="bg-[#F5F2E9] dark:bg-[#201747]">
+
+        <div class="mx-4 md:mx-12 pt-4 ">
+            <div class="flex justify-between  gap-5">
+         <!-- Icônes sociales -->
+         <div class="flex gap-x-2">
+             <img src="public/assets/Icon/Icon - Facebook.png" class="w-8 h-8 md:w-10 md:h-10" alt="Facebook">
+             <img src="public/assets/Icon/Icon - Linkedin.png" class="w-8 h-8 md:w-10 md:h-10" alt="LinkedIn">
+             <img src="public/assets/Icon/Icon - X Twitter.png" class="w-8 h-8 md:w-10 md:h-10" alt="Twitter">
+         </div>
+         <div class="md:flex  hidden justify-center">
+            <img src="public/assets/images/Logo.svg" class="object-container    w-64 mx-auto md:w-full  md:h-64" alt="Logo Rev">
+        </div>
+         <!-- Image de profil -->
+         <div class="flex flex-col items-center relative">
+            <!-- Image de profil -->
+            <div class="relative z-20">
+              <img src="public/assets/images/img.jpg" 
+                   class="h-14 w-14 md:h-18 md:w-18 shadow-2xl dark:shadow-xl/50
+                   dark:border-[#201747] rounded-full object-cover border-4 border-gray-300" 
+                   alt="Profile">
+            </div>
+          
+            <!-- Bouton "Mon compte" juste en dessous -->
+            <a href="login.html"
+               class="-mt-3 z-10 bg-[#58abaf] w-24 text-center text-white font-bold md:px-6 py-2 md:w-full rounded-full shadow-2xl text-[11px] md:text-base hover:bg-[#499fa3] transition duration-300">
+               Mon compte
+            </a>
+          </div>
+          
+          
+    
+         
+    
+     
+        </div>
+    
+      <!-- Logo -->
+       <div class="md:hidden   justify-center">
+            <img src="public/assets/images/Logo.svg" class="object-container    w-auto  mx-auto md:h-64" alt="Logo Rev">
+        </div>
+     </div>
+
+
+       <div class=" mx-4 md:mx-24 ">
+        <div class="shadow-2xl bg-white dark:bg-[#2E265E]  rounded-4xl overflow-hidden ">
+            <div class="grid grid-cols-1 md:grid-cols-2">
+                <div class="p-6 md:px-20 space-y-4 ">
+                    <h1 class="font-medium text-[#772D80] text-4xl dark:text-white">Se connecter</h1>
+                    <div class="">
+                        <form action="">
+                         <div class="space-y-4 ">
+                            <div class="flex flex-col">
+                                <label for="identify" class="text-gray-500 dark:text-white text-md">Idendifiant</label>
+                                <input type="text"  class=" border-b border-[#7c75B8] outline-none focus:border-b-[] md:p-2">
+                            </div>
+    
+                            <div class="flex flex-col">
+                                <label for="identify" class="text-gray-500 dark:text-white text-md">Mots de Passe</label>
+                                <input type="password"  class=" border-b border-[#7c75B8] outline-none focus:border-[#7c75B8] md:p-2">
+                            </div>
+    
+                            <div class="flex justify-center items-center cdn">
+                                <button type="submit" class="bg-[#54acae] cursor-pointer rounded-full p-2 px-4 text-white font-bold shadow-lg likn ">Connexion</button>
+                            </div>
+                         </div>
+    
+                        <div class=" flex justify-between items-center mt-2">
+                            <a href="#" class="dark:text-white">Mots de Passe Oublié ?</a>
+                            <a href="#" type="submit" class="bg-[#7c75B8] whitespace-nowrap  transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 rounded-full shadow-md hover:bg-transparent hover:text-black transition duration-1 p-2 px-2 text-white font-bold ">Cliquez-ici</a>
+    
+                        </div>
+                        </form>
+                    </div>
+                </div>
+    
+                <div class="bg-image   flex flex-col justify-center items-center ">
+                    <div class="space-y-12 mt-5 p-6 px-14 w-full flex flex-col justify-center items-center ">
+                        <div class="border p-2 bg-white/50  w-72  rounded-full px-3 bg-blur border-white ">
+    
+                           <p class="text-white text-lg  flex items-center gap-2">
+                            <i class="fa-brands fa-google text-3xl"></i>
+                            Continuer avec Google
+                           </p>
+                        </div>
+                        <div class="border p-2 bg-white/50  w-72   rounded-full px-3 bg-blur border-white ">
+                            <p class="text-white text-lg  flex items-center gap-2">
+                                <i class="fa-brands fa-facebook-f text-3xl"></i>
+                                Continuer avec Facebook
+                               </p>
+    
+                        </div>
+                        <div class="border p-2 bg-white/50 w-72  rounded-full px-3 bg-blur border-white ">
+                            <p class="text-white text-lg  flex items-center gap-2">
+                                <i class="fa-brands fa-apple text-3xl"></i>
+                                Continuer avec Apple
+                               </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       </div>
+
+
+       <footer class="mt-20 relative">
+        <!-- Ecureuil Animation -->
+        <img src="public/assets/Icon/Ecureuil.png"
+            class="w-24 h-24 animate-bounce absolute right-10 -top-16 lg:right-20 lg:bottom-44 object-cover" alt="">
+    
+        <div class="px-4 md:px-10 bg-[#E7E4D3]  dark:bg-[#191238] shadow-lg pt-4 ">
+
+
+            
+            <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-6 lg:space-y-0">
+    
+                <!-- Logo Section -->
+
+                 
+                <div class="flex justify-center lg:justify-start">
+                    <img src="public/assets/images/Logo.svg" class="object-contain h-32 md:h-44" alt="Logo Rev">
+                </div>
+    
+                <!-- Links Section -->
+                <div class="text-center lg:text-left ">
+                    <ul class="space-y-3 dark:text-white">
+                        <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Conditions générales d'utilisation</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Politique de confidentialité</a></li>
+                        <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Support clients</a></li>
+                    </ul>
+                </div>
+                <!-- Contact Section -->
+                <div class="text-center lg:text-right">
+                    <a href="#"
+                        class="bg-[#8f59b7] flex gap-2 items-center px-6 py-2 rounded-4xl text-white mx-auto lg:mx-0">
+                        Contactez-nous
+                    </a>
+    
+                    <div class="flex justify-center lg:justify-start gap-x-2 mt-4 lg:mt-0">
+                        <img src="public/assets/Icon/Icon - Facebook.png" class="w-12 h-12" alt="Facebook">
+                        <img src="public/assets/Icon/Icon - Linkedin.png" class="w-12 h-12" alt="LinkedIn">
+                        <img src="public/assets/Icon/Icon - X Twitter.png" class="w-12 h-12" alt="Twitter">
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+    </footer>
+    
+    </div>
+
+  
+</body>
+</html>

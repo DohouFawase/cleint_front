@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Register</title>
+  
+</head>
+
+<body>
+    <div class="bg-[#F5F2E9]  dark:bg-[#201747]">
+        <div class="mx-4 md:mx-12 pt-4 ">
+            <div class="flex justify-between  gap-5">
+         <!-- Icônes sociales -->
+         <div class="flex gap-x-2">
+             <img src="public/assets/Icon/Icon - Facebook.png" class="w-8 h-8 md:w-10 md:h-10" alt="Facebook">
+             <img src="public/assets/Icon/Icon - Linkedin.png" class="w-8 h-8 md:w-10 md:h-10" alt="LinkedIn">
+             <img src="public/assets/Icon/Icon - X Twitter.png" class="w-8 h-8 md:w-10 md:h-10" alt="Twitter">
+         </div>
+         <div class="md:flex  hidden justify-center">
+            <img src="public/assets/images/Logo.svg" class="object-container    w-64 mx-auto md:w-full  md:h-64" alt="Logo Rev">
+        </div>
+         <!-- Image de profil -->
+         <div class="flex flex-col items-center relative">
+            <!-- Image de profil -->
+            <div class="relative z-20">
+              <img src="public/assets/images/img.jpg" 
+                   class="h-14 w-14 md:h-18 md:w-18 shadow-2xl dark:shadow-xl/50
+                   dark:border-[#201747] rounded-full object-cover border-4 border-gray-300" 
+                   alt="Profile">
+            </div>
+          
+            <!-- Bouton "Mon compte" juste en dessous -->
+            <a href="login.html"
+               class="-mt-3 z-10 bg-[#58abaf] w-24 text-center text-white font-bold md:px-6 py-2 md:w-full rounded-full shadow-2xl text-[11px] md:text-base hover:bg-[#499fa3] transition duration-300">
+               Mon compte
+            </a>
+          </div>
+          
+          
+    
+         
+    
+     
+        </div>
+    
+      <!-- Logo -->
+       <div class="md:hidden   justify-center">
+            <img src="public/assets/images/Logo.svg" class="object-container    w-auto  mx-auto md:h-64" alt="Logo Rev">
+        </div>
+     </div>
+ 
+     
+   
+  
+        
+
+
+
+        <div class=" my-4 mx-4 py-3 md:mx-24 ">
+            <div class="shadow-lg bg-white dark:bg-[#2E265E]  dark:text-white rounded-2xl overflow-hidden ">
+                <form action="" class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 place-content-center">
+                    <div class="p-6 px-4 space-y-3">
+                        <h1 class="font-medium text-[#412378] text-2xl dark:text-white">Mon Inscription</h1>
+
+                        <div class="my-4 space-y-3">
+                                <div class="space-y-1 flex flex-col">
+                                    <label>Nom de l'entreprise</label>
+                                    <input type="text" name="nom_entreprise" id=""
+                                        class="border-b-[#772D80] max-w-92  border-b outline-none">
+                                </div>
+
+                                <div class="space-y-1 flex flex-col">
+                                    <label>Email</label>
+                                    <input type="email" name="email" id=""
+                                        class="border-b-[#772D80] max-w-92  border-b outline-none">
+                                </div>
+
+                                <div class="space-y-1 flex flex-col">
+                                    <label>Téléphone</label>
+                                    <input type="phone" name="phone" id=""
+                                        class="border-b-[#772D80] max-w-92  border-b outline-none">
+                                </div>
+
+                                <div class="grid md:grid-cols-2 gap-5">
+                                    <div class=" overflow-hidden border border-[#54acae] rounded-2xl ">
+                                         <div class="bg-[#54acae] p-2 flex justify-between items-center text-white">
+                                            <p>NB EMPLOYÉS</p>
+                                            <svg class="dropdown-icon h-5 w-5 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white">
+                                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                            </svg>
+                                         </div>
+                                        <ul class="px-2 space-y-2 py-2">
+                                            <li class="">1-10 employés</li>
+                                            <li class="">11-50 employés</li>
+                                            <li class="">51-250 employés</li>
+                                            <li class="">251+ employés</li>
+                                        </ul>
+                                    </div>
+
+                                    <div class=" overflow-hidden border border-[#54acae] rounded-2xl">
+                                        <div class="bg-[#54acae] p-2 flex justify-between items-center text-white">
+                                           <p>Secteur d'activités</p>
+                                           <svg class="dropdown-icon h-5 w-5 transition-transform duration-300" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="white">
+                                               <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                           </svg>
+                                        </div>
+                                       <ul class="px-2 space-y-2 py-2">
+                                        <li class="">Option 1</li>
+                                        <li class="">Option 2</li>
+                                        <li class="">Option 3</li>
+                                        <li class="">Option 4</li>
+                                          
+                                       </ul>
+                                   </div>
+                             
+                                </div>
+
+                                <div class="">
+                                    <h1>Niveau d'implication actuel dans la RSE</h1>
+                                    <ul class="  space-y-3">
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="implic1" name="niveau_rse" class="peer hidden" value="debutant">
+                                            <label for="implic1"
+                                                class="w-5 h-5 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <p>Débutant</p>
+                                        </li>
+
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="implic2" name="niveau_rse" class="peer hidden" value="intermediaire">
+                                            <label for="implic2"
+                                                class="w-5 h-5 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <p href="#">Intermediare</p>
+                                        </li>
+
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="implic3" name="niveau_rse" class="peer hidden" value="avance" >
+                                            <label for="implic3"
+                                                class="w-5 h-5 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <p href="#">Avancé</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                
+                                
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="bg-register  ">
+                            <div class="space-y-8 md:px-6 py-4 px-4">
+                                <div class="">
+                                    <h1 class="font-medium text-4xl text-white">S'inscrire </h1>
+                                </div>
+                                
+
+                         <div class="space-y-12">
+                            <div class="bg-[rgba(255,255,255,0.5)] border border-white p-4 rounded-2xl space-y-3">
+                                <div class="flex flex-col space-y-3 justify-center items-center ">
+                                  <div class="space-y-2 text-center flex gap-3 items-center  ">
+                                    <h1 class="md:text-4xl text-xl text-[#772D80]">Plan Essentiel</h1>
+                                     <p class="font-bold md:text-4xl text-xl text-white"> 00,00€  <span class="text-sm">/ mois</span></p>
+                                  </div>
+                                  <p class="text-white">Accédez à des rapports de veille RSE réguliers, recevez
+                                    des alertes personnalisées, et découvrez des idées
+                                    commerciales basées sur les tendances RSE. Idéal pour
+                                    rester informé efﬁcacement</p>
+                                    <div class="flex items-center gap-3 bg-[#772D80] p-2 rounded-full">
+                                        <label class="inline-flex items-center cursor-pointer">
+                                            <input type="checkbox" id="plan_essentiel" name="plan_essentiel_choisi" value="oui" class="sr-only peer">
+                                            <div
+                                                class="relative w-11 h-6 bg-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-white-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-[#fff] after:border-white-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-white-600 peer-checked:bg-[#54acae] dark:peer-checked:bg-[#54acae]">
+                                            </div>
+                                        </label>
+                                        <p class="text-white">Je ne choisis ce plan</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-[rgba(255,255,255,0.5)] border border-white p-4 rounded-2xl space-y-3">
+                                <div class="flex flex-col space-y-3 justify-center items-center ">
+                                  <div class="space-y-2 text-center flex gap-3 items-center  ">
+                                    <h1 class="md:text-4xl text-xl text-[#772D80]">Plan Essentiel</h1>
+                                     <p class="font-bold md:text-4xl text-xl text-white"> 00,00€  <span class="text-sm">/ mois</span></p>
+                                  </div>
+                                  <p class="text-white">Accédez à des rapports de veille RSE réguliers, recevez
+                                    des alertes personnalisées, et découvrez des idées
+                                    commerciales basées sur les tendances RSE. Idéal pour
+                                    rester informé efﬁcacement</p>
+                                    <div class="flex items-center gap-3 bg-[#772D80] p-2 rounded-full">
+                                        <label class="inline-flex items-center cursor-pointer">
+                                            <input type="checkbox" id="plan_avance" name="plan_avance_choisi" value="oui" class="sr-only peer">
+                                            <div
+                                                class="relative w-11 h-6 bg-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-white-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-[#fff] after:border-white-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-white-600 peer-checked:bg-[#54acae] dark:peer-checked:bg-[#54acae]">
+                                            </div>
+                                        </label>
+                                        <p class="text-white">Je ne choisis ce plan</p>
+                                    </div>
+                                </div>
+                               
+                            
+                            </div>
+                         </div>
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class=" flex justify-center items-center my-4">
+                    <button href="" class="bg-[#8f59b7]  text-center text-white rounded-full p-2 px-2 shadow-md"><h1>Mettre a nouveux</h1></button>
+                </div>
+            </form>
+            </div>
+        </div>
+
+
+
+        
+
+
+
+
+
+
+
+        <footer class="mt-20 relative">
+            <!-- Ecureuil Animation -->
+            <img src="public/assets/Icon/Ecureuil.png"
+                class="w-24 h-24 animate-bounce absolute right-10 -top-16 lg:right-20 lg:bottom-44 object-cover" alt="">
+        
+            <div class="px-4 md:px-10 bg-[#E7E4D3] dark:bg-[#191238]  shadow-lg pt-4 ">
+    
+    
+                
+                <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-6 lg:space-y-0">
+        
+                    <!-- Logo Section -->
+    
+                     
+                    <div class="flex justify-center lg:justify-start">
+                        <img src="public/assets/images/Logo.svg" class="object-contain h-32 md:h-44 w-full md:w-auto" alt="Logo Rev">
+                    </div>
+        
+                    <!-- Links Section -->
+                    <div class="text-center lg:text-left ">
+                        <ul class="space-y-3 dark:text-white">
+                            <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Conditions générales d'utilisation</a></li>
+                            <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Politique de confidentialité</a></li>
+                            <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Support clients</a></li>
+                        </ul>
+                    </div>
+        
+                    <!-- Contact Section -->
+                    <div class="text-center lg:text-right">
+                        <a href="#"
+                            class="bg-[#8f59b7] flex gap-2 items-center px-6 py-2 rounded-4xl text-white mx-auto lg:mx-0">
+                            Contactez-nous
+                        </a>
+        
+                        <div class="flex justify-center lg:justify-start gap-x-2 mt-4 lg:mt-0">
+                            <img src="public/assets/Icon/Icon - Facebook.png" class="w-12 h-12" alt="Facebook">
+                            <img src="public/assets/Icon/Icon - Linkedin.png" class="w-12 h-12" alt="LinkedIn">
+                            <img src="public/assets/Icon/Icon - X Twitter.png" class="w-12 h-12" alt="Twitter">
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="public/assets/js/script.js"></script>
+
+
+</body>
+
+</html>

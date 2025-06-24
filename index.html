@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en"  data-theme="dark" class="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Home Page</title>
+</head>
+
+<body class="bg-[#F5F2E9]  dark:bg-[#201747] " >
+    <div class="mx-4 md:mx-12 pt-4 ">
+        <div class="flex justify-between  gap-5">
+     <!-- Icônes sociales -->
+     <div class="flex gap-x-2">
+         <img src="public/assets/Icon/Icon - Facebook.png" class="w-8 h-8 md:w-10 md:h-10" alt="Facebook">
+         <img src="public/assets/Icon/Icon - Linkedin.png" class="w-8 h-8 md:w-10 md:h-10" alt="LinkedIn">
+         <img src="public/assets/Icon/Icon - X Twitter.png" class="w-8 h-8 md:w-10 md:h-10" alt="Twitter">
+     </div>
+     <div class="md:flex  hidden justify-center">
+        <img src="public/assets/images/Logo.svg" class="object-container    w-64 mx-auto md:w-full  md:h-64" alt="Logo Rev">
+    </div>
+     <!-- Image de profil -->
+     <div class="flex flex-col items-center relative">
+        <!-- Image de profil -->
+        <div class="relative z-20">
+          <img src="public/assets/images/img.jpg" 
+               class="h-14 w-14 md:h-18 md:w-18 shadow-2xl dark:shadow-xl/50 rounded-full object-cover border-4 border-gray-300 dark:border-[#201747]" 
+               alt="Profile">
+        </div>
+      
+        <!-- Bouton "Mon compte" juste en dessous -->
+        <a href="login.html"
+           class="-mt-3  z-10 bg-[#58abaf] w-24 text-center text-white font-bold md:px-6 py-2 md:w-full rounded-full shadow-2xl text-[11px] md:text-base hover:bg-[#499fa3] transition duration-300">
+           Mon compte
+        </a>
+      </div>
+      
+      
+
+     
+
+ 
+    </div>
+
+  <!-- Logo -->
+   <div class="md:hidden   justify-center">
+        <img src="public/assets/images/Logo.svg" class="object-container    w-auto  mx-auto md:h-64" alt="Logo Rev">
+    </div>
+ </div>
+
+
+
+    <div class="  mx-2 md:mx-14 lg:mx-24 space-y-14">
+        <div class="space-y-4">
+            <h1 class="font-medium text-6xl tracking-tight  text-[#772D80] dark:text-white">Hey <span
+                    class="text-[#998dbe]">Prénom</span>, Quoi de neuf ?</h1>
+            <div
+                class="grid grid-cols-1 md:mx-4  md:grid-cols-2 bg-white dark:bg-[#271C54] dark:shadow-xl/50 p-5 gap-4 md:space-x-4 md:shadow-xl rounded-4xl">
+                <!-- Première carte -->
+                <div>
+                    <div class="bg-[#e5f1f2] dark:bg-[#35446E] md:px-4 md:py-1 shadow-md overflow-hidden rounded-2xl space-y-2">
+                        <div class="p-1 md:rounded-xl flex items-center justify-between 
+                                        bg-[#9dcdd0] md:bg-transparent ">
+                            <p class="text-white md:text-[#9dcdd0] font-bold text-sm md:text-xl text-center w-full">
+                                Depuis le début de votre abonnement</p>
+                                <span class="md:hidden text-white text-xl flex-shrink-0"><i class="fas fa-chevron-down text-[#9dcdd0] text-base p-1  bg-white rounded-full "></i></span>
+                                
+                        </div>
+                        <ul class="flex flex-col space-y-1 md:p-0 p-4">
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#9dcdd0] text-sm rounded-md">83</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Actualités consultées</p>
+                            </li>
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#9dcdd0] text-sm rounded-md">6</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Idées générées et téléchargées</p>
+                            </li>
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#9dcdd0] text-sm rounded-md">25</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Rapports sectoriels téléchargés</p>
+                            </li>
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#9dcdd0] text-sm rounded-md">2</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Rapports sectoriels téléchargés</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Deuxième carte -->
+                <div>
+                    <div class="bg-[#edeaf4] dark:bg-[#41356F] shadow-md md:px-4 md:py-1 overflow-hidden rounded-2xl space-y-2">
+                        <div class="bg-[#8475b5]  md:bg-transparent p-1 md:rounded-xl flex items-center justify-between">
+                            <p
+                                class="text-white md:rounded-xl md:text-[#8475b5] font-bold text-sm md:text-xl text-center w-full">
+                                Depuis le début de votre abonnement</p>
+                                <span class="md:hidden text-white text-xl flex-shrink-0"><i class="fas fa-chevron-down text-[#8475b5] text-base p-1  bg-white rounded-full "></i></span>
+                            
+                        </div>
+                        <ul class="flex flex-col space-y-1 md:p-0 p-4">
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#8475b5] text-sm rounded-md">8</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Nouveautés RSE disponibles</p>
+                            </li>
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#8475b5]  text-sm rounded-md">5</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Opportunités d'idées disponibles</p>
+                            </li>
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#8475b5]  text-sm rounded-md">9</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Rapports sectoriels récents</p>
+                            </li>
+                            <li class="flex items-center gap-x-2">
+                                <div class="bg-white p-1 text-[#8475b5]  text-sm rounded-md">1</div>
+                                <p class="text-sm md:text-lg dark:text-white whitespace-nowrap">Événements ou sessions manqués</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+        <div class="shadow-2xl dark:shadow-xl/500 bg-white dark:bg-[#2E265E] rounded-4xl overflow-hidden bg-gray-200  ">
+
+
+            <div class="w-full bg-gray-200  dark:bg-[#271C54]">
+
+                <div class="flex justify-between w-full overflow-hidden">
+                    <!-- Onglet 1 -->
+                    <a href="index.html" 
+                        class="tab-button   w-64 md:w-full hover:bg-gray-300 dark:hover:bg-[#2E265E] dark:border-[#0000001A] dark:shadow-xl/500 flex gap-2 items-center shadow-2xl md:shadow-md md:p-2 transition duration-300 border-r border-gray-300 dark:border-[#2E265E]">
+                        <img src="public/assets/Icon/Tendances RSE- Green.png" class="w-12 h-12" alt="">
+                        <h1 class=" text-xl md:text-3xl   md:block font-medium">Tendances RSE</h1>
+                        <div
+                            class="absolute inline-flex md:top-[39rem] top-[56.5rem]    md:left-[17rem] lg:top-[38rem] ] lg:left-[26rem] left-[15rem] items-center justify-center w-8 h-8 text-xs font-bold text-white bg-[#772D80] shadow-md rounded-full dark:border-gray-900">
+                            +20</div>
+                    </a>
+
+                    <!-- Onglet 2 -->
+                    <a href="commercial.html"
+                        class="tab-button md:w-full shadow-2xl md:shadow-md   dark:shadow-xl/500  flex md:border-r dark:border-[#0000001A]  md:border-l border-gray-300 items-center md:p-2 hover:bg-gray-300 dark:hover:bg-[#2E265E] transition duration-300">
+                        <img src="public/assets/Icon/Idées commerciales - Purple.png" class="w-12 h-12" alt="">
+                        <h1 class="md:text-3xl  hidden text-[#998dbe]  md:block font-medium">Idées Commerciales</h1>
+                        <div
+                            class="absolute inline-flex md:top-[39rem]   md:left-[32rem] top-[56.5rem]  lg:top-[38rem] lg:left-[49rem] left-[18.5rem] items-center justify-center w-8 h-8 text-xs font-bold text-white bg-[#772D80] shadow-md rounded-full dark:border-gray-900">
+                            +20</div>
+                    </a>
+
+                    <!-- Onglet 3 -->
+                    <a href="profil.html"
+                        class="tab-button w-auto md:w-full shadow-2xl md:shadow-md dark-shadow    flex gap-2 items-center p-2 hover:bg-gray-300 dark:hover:bg-[#2E265E] transition duration-300">
+                        <img src="public/assets/Icon/Profil - Green.png" class="w-12 h-12" alt="">
+                        <h1 class="md:text-3xl text-xl text-[#998dbe]  md:block hidden font-medium">Compléter le Profil</h1>
+                    </a>
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="md:px-12 py-6 px-4 ">
+                <h1
+                    class="bg-[#772D80] arrow mt-4 mx-4 shadow-md md:w-[34rem] text-white p-2 rounded-2xl md:rounded-full px-3 shadow-md">
+                    Vous avez 8 nouveautés RSE disponibles depuis votre dernière connexion
+            </h1>
+                <div class="my-6 flex flex-col space-y-4 md:flex-row justify-center md:justify-between w-full">
+
+                    <!-- Search Input Section -->
+                    <div class="relative w-full md:w-[350px]">
+                        <input type="text" class="px-9 py-2 rounded-full dark:bg-[#271C54] dark:shadow-xl/30 shadow-md w-full dark:placeholder:text-white" placeholder="Recherche...">
+                        <img src="public/assets/images/search.png"
+                            class="w-5 h-5 absolute top-1/2 left-3 transform -translate-y-1/2" alt="">
+                    </div>
+
+
+                    <!-- Button Section -->
+                    <div class="flex justify-between gap-2 space-x-9">
+
+                        <!-- Filter Button -->
+                        <div class="w-full md:w-auto">
+                            <button id="toggleSidebar"
+                                class="block flex items-center gap-x-2 justify-center bg-[#58abaf] md:hidden w-full md:w-auto text-center text-white font-bold p-2 md:p-1 rounded-full shadow-md">
+                                <i class="fa-solid fa-bars-staggered"></i>
+                                <h1>Filtres</h1>
+                            </button>
+                        </div>
+
+                        <!-- Notifications Button -->
+                        <div class="w-full ">
+
+                            <button
+                                class="bg-[#58abaf] flex items-center gap-x-2 text-white font-bold px-3 py-2 rounded-full shadow-md text-xs ">
+                                <img src="public/assets/images/notif.png" alt="" class="w-6 h-6">
+                               <h1> Mes alertes</h1>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sidebar mobile -->
+                <div id="mobileSidebar"
+                    class="w-full bg-white dark:bg-[#271C54]  dark:text-white shadow-xl dark:shadow-xl/30  rounded-2xl fixed top-0 left-0 z-50 hidden md:hidden">
+                    <div class="p-4">
+                        <button id="closeSidebar" class="absolute top-2 right-2 text-xl font-bold">X</button>
+                        <!-- Button de fermeture -->
+                        <p class="text-center text-[#820081] dark:text-white">Filtres</p>
+                        <div class="space-y-3 px-3 py-3">
+                            <div class="space-y-2">
+                                <h1 class="text-[#4c008c] dark:text-white">Categorie</h1>
+                                <ul class="space-y-2  ">
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="radio1" name="categorie" class="peer hidden">
+                                        <label for="radio1"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Articles</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="radio2" name="categorie" class="peer hidden">
+                                        <label for="radio2"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Rapports</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="radio3" name="categorie" class="peer hidden">
+                                        <label for="radio3"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Etudes </a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="radio4" name="categorie" class="peer hidden">
+                                        <label for="radio4"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Blogs</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="radio5" name="categorie" class="peer hidden">
+                                        <label for="radio5"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Lois</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="space-y-2">
+                                <h1>Favories</h1>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="fav1" name="favoris" class="peer hidden">
+                                        <label for="fav1"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Articles</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="space-y-2">
+                                <h1>Périodes</h1>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="per1" name="periode" class="peer hidden">
+                                        <label for="per1"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Dernière semaine</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="per2" name="periode" class="peer hidden">
+                                        <label for="per2"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Dernier mois</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="per3" name="periode" class="peer hidden">
+                                        <label for="per3"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Dernière année</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="space-y-2">
+                                <h1 class="text-[#4c008c] dark:text-white">Périodes</h1>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="per1" name="periode" class="peer hidden">
+                                        <label for="per1"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Dernière semaine</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="per2" name="periode" class="peer hidden">
+                                        <label for="per2"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Dernier mois</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="per3" name="periode" class="peer hidden">
+                                        <label for="per3"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Dernière année</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Priorité haute -->
+                            <div class="space-y-2">
+                                <h1 class="text-[#4c008c] dark:text-white">Priorité</h1>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="prio1" name="priorite" class="peer hidden">
+                                        <label for="prio1"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Priorité haute</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="prio2" name="priorite" class="peer hidden">
+                                        <label for="prio2"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Priorité basse</a>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- Impact commercial -->
+                            <div class="space-y-2 relative">
+                                <h1 class="text-[#4c008c] dark:text-white">Impact commercial</h1>
+                                <ul class="space-y-2">
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="impact1" name="impact" class="peer hidden">
+                                        <label for="impact1"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Fort</a>
+                                    </li>
+                                    <li class="flex items-center gap-2">
+                                        <input type="radio" id="impact2" name="impact" class="peer hidden">
+                                        <label for="impact2"
+                                            class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                        <a href="#">Faible</a>
+                                    </li>
+
+                                </ul>
+
+                              
+                            </div>
+                        </div>
+                        <button href=""
+                        class="bg-[#8f59b7]  text-center text-white likn   rounded-full p-1 px-4 shadow-2xl">Appliquer</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="flex gap-x-14 w-full ">
+                    <div class="rounded-[2rem] md:flex hidden bg-white dark:bg-[#271C54]  shadow-xl/500  w-64 h-[44rem]">
+                        <div id="sidebar" class="dividy-y-1  ">
+                            <div class=" py-3 border-b border-gray-400 dark:border-[#772D80]">
+                                <h1 class="text-center text-[#820081] dark:text-white ">Filtres</h1>
+                            </div>
+                            <div class="space-y-3 px-3 py-3 dark:text-white">
+                                <div class="space-y-2">
+                                    <h1 class="text-[#4c008c] dark:text-white">Categorie</h1>
+                                    <ul class="space-y-2 ">
+                                        <li class="flex items-center gap-2 ">
+                                            <input type="radio" id="radio1" name="categorie" class="peer hidden">
+                                            <label for="radio1"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Articles</a>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="radio2" name="categorie" class="peer hidden">
+                                            <label for="radio2"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Rapports</a>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="radio3" name="categorie" class="peer hidden">
+                                            <label for="radio3"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Etudes </a>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="radio4" name="categorie" class="peer hidden">
+                                            <label for="radio4"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Blogs</a>
+                                        </li>
+
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="radio4" name="categorie" class="peer hidden">
+                                            <label for="radio4"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Lois</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <h1 class="text-[#4c008c] dark:text-white">Favories</h1>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="fav1" name="favoris" class="peer hidden">
+                                            <label for="fav1"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Articles</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="space-y-2">
+                                    <h1 class="text-[#4c008c] dark:text-white">Périodes</h1>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="per1" name="periode" class="peer hidden">
+                                            <label for="per1"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Dernière semaine</a>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="per2" name="periode" class="peer hidden">
+                                            <label for="per2"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Dernier mois</a>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="per3" name="periode" class="peer hidden">
+                                            <label for="per3"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Dernière année</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Priorité haute -->
+                                <div class="space-y-2">
+                                    <h1 class="text-[#4c008c] dark:text-white">Priorité</h1>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="prio1" name="priorite" class="peer hidden">
+                                            <label for="prio1"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Priorité haute</a>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="prio2" name="priorite" class="peer hidden">
+                                            <label for="prio2"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Priorité basse</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- Impact commercial -->
+                                <div class="space-y-2 relative">
+                                    <h1 class="text-[#4c008c] dark:text-white">Impact commercial</h1>
+                                    <ul class="space-y-2">
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="impact1" name="impact" class="peer hidden">
+                                            <label for="impact1"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Fort</a>
+                                        </li>
+                                        <li class="flex items-center gap-2">
+                                            <input type="radio" id="impact2" name="impact" class="peer hidden">
+                                            <label for="impact2"
+                                                class="w-3 h-3 border-2 border-gray-400 rounded-full flex items-center justify-center peer-checked:bg-green-400 transition"></label>
+                                            <a href="#">Faible</a>
+                                        </li>
+
+                                    </ul>
+
+                                    <div class="mt-10 mx-auto ml-10 ">
+                                        <button href=""
+                                            class="bg-[#8f59b7]  text-center text-white likn   rounded-full p-1 px-4 shadow-2xl">Appliquer</button>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="w-full">
+                        <div class="  w-full grid md:grid-cols-2 gap-16 gap-4">
+                            <div class="bg-[#e5f1f2] dark:bg-[#34396A]  rounded-4xl overflow-hidden  flex flex-col justify-between">
+                                <div class="flex gap-x-2 justify-end mr-4 py-3">
+                                    <img src="public/assets/Icon/Partage.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Cloche.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Favoris.png" alt="" class="w-7 h-7 object-cover">
+                                </div>
+
+                                <div class="flex justify-center py-5 flex-col items-center space-y-2">
+                                    <h1 class="font-bold text-4xl text-[#58abaf]">Titre du Rapport</h1>
+                                    <img src="public/assets/images/book.png" class="h-12 w-12" alt="">
+
+                                </div>
+
+                                <div class="bg-[#58abaf] py-1 text-white text-center flex justify-center items-center">
+                                    <a href="#" class="text-2xl ">Lire le Rapport</a>
+                                    <i class="fa-solid fa-chevron-right text-3xl"></i>
+
+                                </div>
+                            </div>
+
+                            <div class="bg-[#efe7f4] dark:bg-[#3B316B] rounded-4xl  overflow-hidden  flex flex-col justify-between">
+                                <div class="flex gap-x-2 justify-end mr-4 py-3">
+                                    <img src="public/assets/Icon/Partage.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Cloche.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Favoris.png" alt="" class="w-7 h-7 object-cover">
+                                </div>
+
+                                <div class="flex justify-center flex-col items-center space-y-2 py-5">
+                                    <h1 class="font-bold text-[#8f59b7] text-4xl">Titre L'article</h1>
+                                    <img src="public/assets/images/article.png" class="h-12 w-12" alt="">
+
+                                </div>
+
+                                <div class="bg-[#8f59b7]  py-1 text-white flex justify-center items-center text-center">
+                                    <a href="#" class="text-2xl ">Lire l'article</a>
+                                    <i class="fa-solid fa-chevron-right text-3xl"></i>
+                                </div>
+                            </div>
+
+                            <div class="bg-[#efe7f4] dark:bg-[#3B316B] rounded-4xl  overflow-hidden  flex flex-col justify-between">
+                                <div class="flex gap-x-2 justify-end mr-4 py-3">
+                                    <img src="public/assets/Icon/Partage.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Cloche.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Favoris.png" alt="" class="w-7 h-7 object-cover">
+                                </div>
+
+                                <div class="flex justify-center flex-col items-center space-y-2 py-5">
+                                    <h1 class="font-bold text-4xl text-[#8f59b7]">Titre de l'etude</h1>
+                                    <img src="public/assets/images/stach.png" class="h-12 w-12" alt="">
+
+                                </div>
+
+                                <div class="bg-[#8f59b7] flex justify-center items-center  py-1 text-white text-center">
+                                    <a href="#" class="text-2xl ">Lire l'etude</a>
+                                    <i class="fa-solid fa-chevron-right text-3xl"></i>
+
+                                </div>
+                            </div>
+
+                            <div class="bg-[#e5f1f2] dark:bg-[#34396A]  rounded-4xl  overflow-hidden  flex flex-col justify-between">
+                                <div class="flex gap-x-2 justify-end mr-4 py-3">
+                                    <img src="public/assets/Icon/Partage.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Cloche.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Favoris.png" alt="" class="w-7 h-7 object-cover">
+                                </div>
+
+                                <div class="flex justify-center flex-col items-center space-y-2 py-5">
+                                    <h1 class="font-bold text-4xl text-[#58abaf]">Titre du Blog</h1>
+                                    <img src="public/assets/images/blog.png" class="h-12 w-12" alt="">
+
+                                </div>
+
+                                <div class="bg-[#58abaf] py-1  flex justify-center items-center text-white text-center">
+                                    <a href="#" class="text-2xl ">Lire le Blog</a>
+                                    <i class="fa-solid fa-chevron-right text-3xl"></i>
+
+                                </div>
+                            </div>
+
+
+                            <div class="bg-[#e5f1f2] dark:bg-[#34396A]  rounded-4xl  overflow-hidden  flex flex-col justify-between">
+                                <div class="flex gap-x-2 justify-end mr-4 py-3">
+                                    <img src="public/assets/Icon/Partage.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Cloche.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Favoris.png" alt="" class="w-7 h-7 object-cover">
+                                </div>
+
+                                <div class="flex justify-center flex-col items-center space-y-2 py-5">
+                                    <h1 class="font-bold text-4xl text-[#58abaf]">Titre de la loi</h1>
+                                    <img src="public/assets/images/law.png" class="h-12 w-12" alt="">
+
+                                </div>
+
+                                <div class="bg-[#58abaf] py-1 flex justify-center items-center text-white text-center">
+                                    <a href="#" class="text-2xl font-medium">Lire le loi</a>
+                                    <i class="fa-solid fa-chevron-right text-3xl"></i>
+
+                                </div>
+                            </div>
+
+                            <div class="bg-[#efe7f4] dark:bg-[#3B316B] rounded-4xl  overflow-hidden  flex flex-col justify-between">
+                                <div class="flex gap-x-2 justify-end mr-4 py-3">
+                                    <img src="public/assets/Icon/Partage.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Cloche.png" alt="" class="w-7 h-7 object-cover">
+                                    <img src="public/assets/Icon/Favoris.png" alt="" class="w-7 h-7 object-cover">
+                                </div>
+
+                                <div class="flex justify-center flex-col items-center space-y-2 py-5">
+                                    <h1 class="font-bold text-4xl text-[#8f59b7]">Titre du Rapport</h1>
+                                    <img src="public/assets/images/book.png" class="h-12 w-12" alt="">
+
+                                </div>
+
+                                <div class="bg-[#8f59b7] flex justify-center items-center py-1 text-white text-center">
+                                    <a href="#" class="text-2xl font-medium">Lire le Rapport</a>
+                                    <i class="fa-solid fa-chevron-right text-3xl"></i>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center gap-x-2 items-center ">
+                            <button class="h-8 mt-1 w-8 rounded-full bg-[#772D80] text-white">
+                                <i class="fa-solid fa-chevron-left"></i>
+                            </button>
+                            <button class="h-8 mt-1 w-8 rounded-full bg-[#772D80] text-white">
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="mt-20 relative">
+        <!-- Ecureuil Animation -->
+        <img src="public/assets/Icon/Ecureuil.png"
+            class="w-24 h-24 animate-bounce absolute right-10 -top-16 lg:right-20 lg:bottom-44 object-cover" alt="">
+
+      <div class="px-4 md:px-10 bg-[#E7E4D3] dark:bg-[#191238] shadow-lg pt-4 ">
+    <div class="flex flex-col lg:flex-row justify-between items-center lg:items-start space-y-6 lg:space-y-0">
+        <div class="flex justify-center lg:justify-start">
+            <img src="public/assets/images/Logo.svg" class="object-contain h-32 md:h-44" alt="Logo Rev">
+        </div>
+
+        <div class="text-center lg:text-left ">
+            <ul class="space-y-3 dark:text-white">
+                <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Conditions générales d'utilisation</a></li>
+                <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Politique de confidentialité</a></li>
+                <li><a href="" class="text-gray-600 hover:text-[#61b5b7] dark:text-white">Support clients</a></li>
+            </ul>
+        </div>
+
+        <div class="text-center lg:text-right">
+            <a href="#"
+                class="bg-[#8f59b7] flex gap-2 items-center px-6 py-2 rounded-4xl text-white mx-auto lg:mx-0">
+                Contactez-nous
+            </a>
+
+            <div class="flex justify-center gap-x-2 mt-4 lg:mt-0"> <img src="public/assets/Icon/Icon - Facebook.png" class="w-12 h-12" alt="Facebook">
+                <img src="public/assets/Icon/Icon - Linkedin.png" class="w-12 h-12" alt="LinkedIn">
+                <img src="public/assets/Icon/Icon - X Twitter.png" class="w-12 h-12" alt="Twitter">
+            </div>
+        </div>
+    </div>
+</div>
+    </footer>
+
+    <script src="public/assets/js/script.js"></script>
+
+    <script>
+        // JavaScript to handle the sidebar toggle for mobile
+        const toggleButton = document.getElementById('toggleSidebar');
+        const mobileSidebar = document.getElementById('mobileSidebar');
+        const closeSidebarButton = document.getElementById('closeSidebar');
+
+        toggleButton.addEventListener('click', () => {
+            mobileSidebar.classList.toggle('hidden');
+        });
+
+        closeSidebarButton.addEventListener('click', () => {
+            mobileSidebar.classList.add('hidden');
+        });
+    </script>
+</body>
+
+</html>
