@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="public/assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Détail de l'Article</title>
+  
+</head>
+<body class="bg-[#F5F2E9]  dark:bg-[#201747] dark:text-white ">
+  
+    
+    <div class="mx-4 md:mx-12 pt-4 ">
+        <div class="flex justify-between  gap-5">
+     <!-- Icônes sociales -->
+     <div class="flex gap-x-2">
+         <img src="public/assets/Icon/Icon - Facebook.png" class="w-8 h-8 md:w-10 md:h-10" alt="Facebook">
+         <img src="public/assets/Icon/Icon - Linkedin.png" class="w-8 h-8 md:w-10 md:h-10" alt="LinkedIn">
+         <img src="public/assets/Icon/Icon - X Twitter.png" class="w-8 h-8 md:w-10 md:h-10" alt="Twitter">
+     </div>
+     <div class="md:flex  hidden justify-center">
+        <img src="public/assets/images/Logo.svg" class="object-container    w-64 mx-auto md:w-full  md:h-64" alt="Logo Rev">
+    </div>
+     <!-- Image de profil -->
+     <div class="flex flex-col items-center relative">
+        <!-- Image de profil -->
+        <div class="relative z-20">
+          <img src="public/assets/images/img.jpg" 
+               class="h-14 w-14 md:h-18 md:w-18 shadow-2xl dark:shadow-xl/50 rounded-full object-cover border-4 border-gray-300 dark:border-[#201747]" 
+               alt="Profile">
+        </div>
+      
+        <!-- Bouton "Mon compte" juste en dessous -->
+        <a href="login.html"
+           class="-mt-3  z-10 bg-[#58abaf] w-24 text-center text-white font-bold md:px-6 py-2 md:w-full rounded-full shadow-2xl text-[11px] md:text-base hover:bg-[#499fa3] transition duration-300">
+           Mon compte
+        </a>
+      </div>
+      
+      
+
+     
+
+ 
+    </div>
+
+  <!-- Logo -->
+   <div class="md:hidden   justify-center">
+        <img src="public/assets/images/Logo.svg" class="object-container    w-auto  mx-auto md:h-64" alt="Logo Rev">
+    </div>
+ </div>
+
+    <!-- Article principal -->
+    <article class="max-w-4xl mx-auto px-6 py-12 dark:text-white">
+        <!-- En-tête de l'article -->
+        <header class="mb-12 fade-in">
+            <!-- Breadcrumb -->
+            <nav class="flex space-x-2 text-sm text-gray-500 mb-6 dark:text-white" >
+                <a href="#" class="hover:accent-color transition-colors">Accueil</a>
+                <span>/</span>
+                <a href="#" class="hover:accent-color transition-colors">Technologie</a>
+                <span>/</span>
+                <span class="accent-color">Intelligence Artificielle</span>
+            </nav>
+            
+            <!-- Tags -->
+            <div class="flex flex-wrap gap-2 mb-6 slide-up stagger-1 ">
+                <span class="tag-pill text-white px-3 py-1 rounded-full text-sm font-medium">IA</span>
+                <span class="tag-pill text-white px-3 py-1 rounded-full text-sm font-medium">Technologie</span>
+                <span class="tag-pill text-white px-3 py-1 rounded-full text-sm font-medium">Innovation</span>
+            </div>
+            
+            <!-- Titre -->
+            <h1 class="text-4xl dark:text-white md:text-5xl font-bold text-gray-900 mb-6 leading-tight slide-up stagger-2">
+                L'Intelligence Artificielle : 
+                <span class="accent-color">Révolutionner le Futur</span>
+            </h1>
+            
+            <!-- Sous-titre -->
+            <p class="text-xl text-gray-600 mb-8 leading-relaxed slide-up stagger-3">
+                Découvrez comment l'IA transforme notre quotidien et reshape les industries à travers le monde, 
+                ouvrant de nouvelles perspectives d'innovation et de croissance.
+            </p>
+            
+            <!-- Métadonnées -->
+            <div class="flex flex-wrap items-center gap-6 text-gray-500 slide-up stagger-4">
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-br from-blue-400 to-purple-500 rounded-full flex items-center justify-center">
+                        <span class="text-white font-semibold text-sm">JD</span>
+                    </div>
+                    <div>
+                        <p class="font-medium text-gray-900">Jean Dupont</p>
+                        <p class="text-sm">Expert en IA</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <div class="flex items-center space-x-1">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-sm">15 Mars 2025</span>
+                    </div>
+                    <div class="flex items-center space-x-1">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-sm">12 min de lecture</span>
+                    </div>
+                    <div class="flex items-center space-x-1">
+                        <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M10 12a2 2 0 100-4 2 2 0 000 4z"/>
+                            <path fill-rule="evenodd" d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z" clip-rule="evenodd"/>
+                        </svg>
+                        <span class="text-sm">2,847 vues</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Image principale -->
+        <div class="mb-12 slide-up stagger-4">
+            <div class="relative rounded-2xl overflow-hidden bg-gradient-to-br from-blue-50 to-indigo-100 p-20">
+                <div class="text-center">
+                    <div class="w-32 h-32 mx-auto mb-6 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center">
+                        <svg class="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
+                        </svg>
+                    </div>
+                    <p class="text-gray-600 italic">Image illustrative - Intelligence Artificielle</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contenu de l'article -->
+        <div class="prose prose-lg max-w-none">
+            <div class="text-content text-gray-700 space-y-8">
+                <p class="text-xl leading-relaxed slide-up stagger-1">
+                    L'intelligence artificielle n'est plus de la science-fiction. Elle est devenue une réalité tangible qui transforme 
+                    radicalement notre façon de vivre, de travailler et d'interagir avec le monde qui nous entoure. Des assistants 
+                    vocaux dans nos foyers aux algorithmes qui optimisent nos trajets quotidiens, l'IA s'immisce discrètement mais 
+                    efficacement dans chaque aspect de notre existence.
+                </p>
+
+                <p class="leading-relaxed slide-up stagger-2">
+                    Cette révolution technologique ne se contente pas de simplifier nos tâches quotidiennes. Elle repense 
+                    fondamentalement les modèles économiques, les processus industriels et même notre approche de la résolution 
+                    de problèmes complexes. Les entreprises qui embrassent cette transformation voient leurs performances 
+                    s'améliorer de manière exponentielle, tandis que celles qui résistent risquent de se retrouver dépassées.
+                </p>
+
+                <div class="quote-style p-6 rounded-xl my-8 slide-up stagger-3">
+                    <blockquote class="text-lg italic text-gray-700">
+                        "L'intelligence artificielle est probablement la chose la plus importante sur laquelle l'humanité ait jamais travaillé. 
+                        Je pense que c'est quelque chose de plus profond que l'électricité ou le feu."
+                    </blockquote>
+                    <cite class="text-sm accent-color font-medium mt-2 block">— Sundar Pichai, CEO de Google</cite>
+                </div>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6 slide-up stagger-4">
+                    Les Domaines d'Application
+                </h2>
+
+                <p class="leading-relaxed slide-up stagger-4">
+                    L'impact de l'IA se ressent dans une multitude de secteurs. En médecine, elle aide à diagnostiquer des maladies 
+                    avec une précision inégalée. Dans l'automobile, elle pavie la voie vers une conduite entièrement autonome. 
+                    Le secteur financier utilise l'IA pour détecter les fraudes et optimiser les investissements en temps réel.
+                </p>
+
+                <div class="grid md:grid-cols-2 gap-6 my-10 slide-up stagger-4">
+                    <div class="bg-white rounded-xl p-6 shadow-lg hover-lift">
+                        <div class="w-12 h-12 accent-bg rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Recherche & Développement</h3>
+                        <p class="text-gray-600 text-sm">Accélération des découvertes scientifiques et innovation produit</p>
+                    </div>
+                    <div class="bg-white rounded-xl p-6 shadow-lg hover-lift">
+                        <div class="w-12 h-12 accent-bg rounded-lg flex items-center justify-center mb-4">
+                            <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                            </svg>
+                        </div>
+                        <h3 class="text-lg font-semibold text-gray-900 mb-2">Automatisation</h3>
+                        <p class="text-gray-600 text-sm">Optimisation des processus et réduction des coûts opérationnels</p>
+                    </div>
+                </div>
+
+                <h2 class="text-2xl font-bold text-gray-900 mt-12 mb-6 slide-up stagger-4">
+                    L'Avenir qui nous Attend
+                </h2>
+
+                <p class="leading-relaxed slide-up stagger-4">
+                    Nous ne sommes qu'au début de cette révolution. Les années à venir promettent des avancées encore plus 
+                    spectaculaires. L'IA générative, les réseaux de neurones quantiques, et l'intelligence artificielle générale 
+                    (AGI) sont autant de technologies qui redéfiniront notre rapport au monde et au travail.
+                </p>
+
+                <p class="leading-relaxed slide-up stagger-4">
+                    Cependant, cette transformation s'accompagne de défis importants. Questions éthiques, impact sur l'emploi, 
+                    protection de la vie privée : autant d'enjeux que nous devons adresser collectivement pour construire un 
+                    avenir où l'IA serve l'humanité plutôt que de la remplacer.
+                </p>
+            </div>
+        </div>
+
+        <!-- Actions de l'article -->
+        <div class="mt-16 pt-8 border-t border-gray-200">
+            <div class="flex flex-wrap justify-between items-center gap-4">
+                <div class="flex items-center space-x-4">
+                    <button class="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors">
+                        <svg class="w-5 h-5 text-gray-600" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.43a2 2 0 001.106 1.79l.05.025A4 4 0 008.943 18h5.416a2 2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z"/>
+                        </svg>
+                        <span class="text-gray-700">248 J'aime</span>
+                    </button>
+                    <button class="flex items-center space-x-2 px-4 py-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors">
+                        <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"/>
+                        </svg>
+                        <span class="text-gray-700">32 Commentaires</span>
+                    </button>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button class="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors">
+                        <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 5a2 2 0 012-2h10a2 2 0 012 2v16l-7-3.5L5 21V5z"/>
+                        </svg>
+                    </button>
+                    <button class="p-2 bg-gray-100 hover:bg-gray-200 rounded-lg transition-colors">
+                        <svg class="w-5 h-5 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.367 2.684 3 3 0 00-5.367-2.684z"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Articles similaires -->
+    <section class="bg-white py-16">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-gray-900 mb-8 text-center">Articles Similaires</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <article class="bg-gray-50 rounded-xl overflow-hidden hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-green-400 to-blue-500 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-gray-900 mb-2">L'IA dans la Santé</h3>
+                        <p class="text-gray-600 text-sm mb-4">Comment l'intelligence artificielle révolutionne le diagnostic médical...</p>
+                        <div class="flex items-center justify-between text-xs text-gray-500">
+                            <span>5 min de lecture</span>
+                            <span>12 Mars 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bg-gray-50 rounded-xl overflow-hidden hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-purple-400 to-pink-500 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-gray-900 mb-2">Sécurité et IA</h3>
+                        <p class="text-gray-600 text-sm mb-4">Les enjeux de cybersécurité dans un monde connecté par l'IA...</p>
+                        <div class="flex items-center justify-between text-xs text-gray-500">
+                            <span>8 min de lecture</span>
+                            <span>10 Mars 2025</span>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="bg-gray-50 rounded-xl overflow-hidden hover-lift">
+                    <div class="h-48 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center">
+                        <svg class="w-12 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2-2v2m8 0V6a2 2 0 012 2v6a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2V6"/>
+                        </svg>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-semibold text-gray-900 mb-2">IA et Emploi</h3>
+                        <p class="text-gray-600 text-sm mb-4">L'impact de l'automatisation sur le marché du travail...</p>
+                        <div class="flex items-center justify-between text-xs text-gray-500">
+                            <span>6 min de lecture</span>
+                            <span>8 Mars 2025</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+ 
+
+   
+
+    <script>
+        // Barre de progression de lecture
+        function updateReadingProgress() {
+            const article = document.querySelector('article');
+            const scrollProgress = window.pageYOffset / (article.offsetHeight - window.innerHeight);
+            const progressBar = document.getElementById('readingProgress');
+            progressBar.style.width = Math.min(scrollProgress * 100, 100) + '%';
+        }
+
+        window.addEventListener('scroll', updateReadingProgress);
+        
+        // Animation au scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.slide-up, .fade-in').forEach(el => {
+            observer.observe(el);
+        });
+    </script>
